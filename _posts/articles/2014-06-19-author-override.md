@@ -1,15 +1,19 @@
 ---
+title: Override Author Byline Test Post
+date: '2014-06-19 00:00:00'
 layout: post
-title: "Override Author Byline Test Post"
-excerpt: "An article to test overriding the default site author."
+excerpt: An article to test overriding the default site author.
 categories: articles
-tags: [sample-post, readability, test]
+tags:
+- sample-post
+- readability
+- test
 author: billy_rick
 comments: true
 share: true
-modified: 2016-06-01T14:18:57-04:00
+modified: '2016-06-01T18:18:57.000+00:00'
 image:
-  feature: so-simple-sample-image-7.jpg
+  feature: "/forestryio/images/Screen Shot 2016-07-22 at 9.40.16 AM.png"
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
@@ -41,7 +45,7 @@ cornelius_fiddlebone:
   twitter: rhymeswithsackit
   google:
     plus: CorneliusFiddlebone
-```
+```![]({{ site.baseurl }}/forestryio/images/Screen Shot 2016-07-21 at 2.24.18 PM.png)
 
 To assign Billy Rick as an author for our post. You'd add the following YAML front matter to a post:
 
